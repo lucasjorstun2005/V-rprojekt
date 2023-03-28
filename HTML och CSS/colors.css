@@ -207,7 +207,7 @@ body {
     width: 0;
     left: 0;
     background-color: #353746;
-    opacity: 0.8;
+    opacity: 0;
     transition: width 250ms linear;
   }
   .nav ul li a:hover:after{
