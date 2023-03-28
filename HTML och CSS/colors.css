@@ -7,10 +7,9 @@
 )*/
 
 body {
-    background-color: FAFAFA;
-}
+    }
 
-.section-center{
+.section-center {
     position: absolute;
     top: 50%;
     left: 0;
