@@ -17,10 +17,12 @@
 </head>
 
 <body>
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button> 
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button> 
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button> 
+      
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active c-item">
@@ -28,7 +30,7 @@
         <div class="carousel-caption top-0 mt-5 d-none d-md-block">
           <p class="mt-5 fs-3 text-uppercase">Värme till Energi</p>
           <h5 class="display-1 fw-bolder text-capitalize">Solceller</h5>
-          <button class="btn btn-secondary px-3 py-2 fs-2 mt-5"> Läs mer! </button>
+          <button class="btn btn-secondary px-3 py-2 fs-2 mt-5" data-bs-toggle="modal" data-bs-target="booking-modal"> Läs mer! </button>
         </div>
       </div>
       <div class="carousel-item c-item">
@@ -36,6 +38,14 @@
         <div class="carousel-caption top-0 mt-5 d-none d-md-block">
           <p class="mt-5 fs-3 text-uppercase">Förvandla vind till Energi</p>
           <h5 class="display-1 fw-bolder text-capitalize">Vindkraft</h5>
+          <button class="btn btn-secondary px-3 py-2 fs-2 mt-5"> Läs mer! </button>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="logga_utan_ring.svg" class="d-block w-100 c-img" alt="slide 3">
+        <div class="carousel-caption top-0 mt-5 d-none d-md-block">
+          <p class="mt-5 fs-3 text-uppercase"></p>
+          <h5 class="display-1 fw-bolder text-capitalize">Om oss</h5>
           <button class="btn btn-secondary px-3 py-2 fs-2 mt-5"> Läs mer! </button>
         </div>
       </div>
