@@ -264,3 +264,16 @@
       font-size: 8vh;
     }
   }
+
+ul:before{
+    content:attr(aria-label);
+    font-size:1.5em;
+    font-weight:bold;
+    margin-left:-15px;
+}
+
+.benefits {
+  display: flex;
+  gap: 30%;
+  margin-top: 10%;
+}
