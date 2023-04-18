@@ -15,6 +15,10 @@
     text-align: center;
     transform: translateY(-50%);
   }
+
+  .zunder {
+    z-index: -1;
+  }
   
   
   [type="checkbox"]:checked,
@@ -105,7 +109,7 @@
     z-index: 9;
     overflow: hidden;
     box-shadow: 0 8px 30px 0 rgba(0,0,0,0.3);
-    background-color: #157F1F;
+    background-color: #4DAA57;
     animation: border-transform 7s linear infinite;
     transition: top 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),  
                 right 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
