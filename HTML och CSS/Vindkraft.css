@@ -292,3 +292,11 @@ img {
   padding-left: 20px;
   align-items: end;
 }
+
+html { 
+  background: url(https://www.svebio.se/wp-content/uploads/2020/09/wind-power-1357419_1280-e1599748932213.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
