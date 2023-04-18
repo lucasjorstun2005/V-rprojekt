@@ -268,15 +268,11 @@ h2 {
   font-size: 0.7em;
   font-weight: bold;
   background-color: #ececee;
-  padding-left: 20px;
-  align-items: end;
 }
 h1 {
   font-size: 2em;
   font-weight: bold;
   background-color: #ececee;
-  padding-left: 20px;
-  align-items: end;
 }
 
 .container {
@@ -284,23 +280,16 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-.vind {
-  display: flex;
-  align-items: start;
-  justify-content: start;
-  
-}
 
+#container2 {
+  align-items: center;
+  justify-content: center;
+  padding-left: 12em;
+  padding-right: 12em;
+}
 .text {
   font-size: 20px;
   padding-left: 20px;
-  align-items: end;
-  background-color: #ececee;
-}
-
-p {
-  padding-left: 20px;
-  align-items: end;
   background-color: #ececee;
 }
 body { 
