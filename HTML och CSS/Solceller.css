@@ -28,6 +28,11 @@ p {
   z-index: 9;
 }
 
+.vad_solkraft {
+  text-align: center;
+  padding-top: 5%;
+}
+
 .start {
   font-size: 150%;
   text-align: center;
