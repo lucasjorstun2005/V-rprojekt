@@ -15,7 +15,9 @@
   }
 
   .Home {
-    background-color: #f5feff;  
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(260deg,#f5feff, #4fb2aa);
   }
 
   .s-text {
