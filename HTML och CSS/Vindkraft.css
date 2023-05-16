@@ -276,16 +276,17 @@ h1 {
 }
 
 .container {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
 }
 
 #container2 {
+  display: grid;
   align-items: center;
   justify-content: center;
-  padding-left: 12em;
-  padding-right: 12em;
+  padding-left: 9.25em;
+  padding-right: 9.25em;
 }
 .text {
   font-size: 20px;
@@ -298,4 +299,16 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.container3 {
+  background-color: #ececee;
+}
+.bild1 {
+  background-color: #ececee;
+  padding-left: 0em;
+  padding-right: 0em;
+  align-items: center;
+  justify-content: center;
+
+  
 }

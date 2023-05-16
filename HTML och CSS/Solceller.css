@@ -11,35 +11,29 @@ h4 {
   margin-left: 6%;
 }
 
-.benefits {
-  display: flex;
-  gap: 15%;
-  margin-top: 5%;
-  margin-left: 5%;
-}
-
 p {
   margin-bottom: 5%;
 }
 
 .solkraft {
-  margin-top: 0%;
+  margin: 0 auto;
   background-color: #ececee;
-  z-index: 9;
 }
 
 .vad_solkraft {
-  text-align: center;
-  padding-top: 5%;
+  width: 100%;
+  display: inline-block;
+}
+
+.benefits {
+  width: 100%;
+  display: inline-block;
 }
 
 .start {
   font-size: 150%;
   text-align: center;
 }
-
-
-
 
 
 
