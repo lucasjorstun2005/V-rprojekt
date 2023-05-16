@@ -305,6 +305,10 @@ body {
 }
 .bild1 {
   background-color: #ececee;
-  padding-left: 9.25em;
-  padding-right: 9.25em;
+  padding-left: 0em;
+  padding-right: 0em;
+  align-items: center;
+  justify-content: center;
+
+  
 }
