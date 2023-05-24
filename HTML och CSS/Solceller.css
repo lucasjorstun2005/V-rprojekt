@@ -13,7 +13,7 @@ p {
   background-color: #FFD580;
   margin-left: 10%;
   margin-right: 10%;
-  padding: 5%;
+  padding: 5% 5% 1%;
   border-radius: 5%;
   font-size: 110%;
 }
@@ -30,6 +30,10 @@ p {
   margin: 22% 15% 17%;
   overflow: hidden;
   font-weight: bold;
+}
+
+.invisible_text {
+  opacity: 0;
 }
 
 
