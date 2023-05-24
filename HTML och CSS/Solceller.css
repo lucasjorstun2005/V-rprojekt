@@ -1,14 +1,8 @@
-
 body {
-    margin-top: 5%;
     background: url(https://s1.1zoom.me/b5050/92/Sunrises_and_sunsets_Sun_469864_1920x1080.jpg) no-repeat center center fixed;
     background-size: cover;
     overflow: auto;
     max-height: 100vh;
-}
-
-h4 {
-  margin-left: 6%;
 }
 
 p {
@@ -16,13 +10,12 @@ p {
 }
 
 .solkraft {
-  margin: 0 auto;
-  background-color: #ececee;
-}
-
-.vad_solkraft {
-  width: 100%;
-  display: inline-block;
+  background-color: #FFD580;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5%;
+  border-radius: 5%;
+  font-size: 110%;
 }
 
 .fördelar, .nackdelar {
@@ -34,8 +27,9 @@ p {
 .start {
   font-size: 150%;
   text-align: center;
+  margin: 22% 15% 17%;
   overflow: hidden;
-  margin-bottom: 25%;
+  font-weight: bold;
 }
 
 
