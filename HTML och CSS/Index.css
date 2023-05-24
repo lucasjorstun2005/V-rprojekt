@@ -8,16 +8,35 @@
     object-fit: cover;
     background-color:#0B0B0F
   }
+  .karusel {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 5px;
+  }
+
+  .Name {
+    position: absolute;
+    font-size: 5em;
+    color: #333;
+  }
+
+  .Pablo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 
   .reddit {
     height: 20ch;
     margin-left: 5ch;
   }
 
-  .Home {
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(260deg,#f5feff, #4fb2aa);
+  Body {
+    background-size: cover;
+    background-image: url(Nature.jpg);
+    position: absolute;
+    background-repeat: no-repeat;
   }
 
   .s-text {
