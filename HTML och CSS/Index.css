@@ -101,6 +101,16 @@
       }
     }
 
+    .ah2 {
+      color: lightgoldenrodyellow;
+      text-shadow: #000 10px 0 10px;
+      border-style: solid;
+      border-color: black;
+      border-width: 1vh;
+      border-radius: 30px;
+      margin: 10px;
+    }
+
 
   .contw {
    height: 40vh;
