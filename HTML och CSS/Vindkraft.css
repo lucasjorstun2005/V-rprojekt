@@ -1,8 +1,29 @@
 
-.container {
-    margin-top: 5%;
+
+body {
+  background: url(Vind.jpg) no-repeat center center fixed;
+  background-size: cover;
+  overflow: auto;
+  max-height: 100vh;
+  color: white;
+}
+.huvudrubrik {
+  color: white;
+  font-size: 150%;
+  text-align: center;
+  margin: 10% 15% 17%;
+  overflow: hidden;
+  font-weight: bold;
 }
 
+.container {
+  background-color: #00aaff;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5% 5% 1%;
+  border-radius: 5%;
+  font-size: 110%;
+}
 .section-center{
     position: absolute;
     top: 50%;
@@ -264,49 +285,3 @@
       font-size: 8vh;
     }
   }
-h2 {
-  font-size: 0.7em;
-  font-weight: bold;
-  background-color: #ececee;
-}
-h1 {
-  font-size: 2em;
-  font-weight: bold;
-  background-color: #ececee;
-}
-
-.container {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-}
-
-#container2 {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  padding-left: 9.25em;
-  padding-right: 9.25em;
-}
-.text {
-  font-size: 20px;
-  padding-left: 20px;
-  background-color: #ececee;
-}
-body { 
-  background: url(https://www.svebio.se/wp-content/uploads/2020/09/wind-power-1357419_1280-e1599748932213.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.container3 {
-  background-color: #ececee;
-}
-.bild1 {
-  background-color: #ececee;
-  padding-left: 0em;
-  padding-right: 0em;
-  align-items: center;
-  justify-content: center;
-}
