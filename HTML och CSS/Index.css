@@ -24,8 +24,35 @@
     justify-content: center;
     align-items: center;
     height: 87vh;
-    
   }
+
+  div {
+    column-gap: 75px;
+  }
+
+  .col {
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    overflow-wrap: break-all;
+    overflow: hidden;
+  }
+
+  .cot {
+    border-radius: 35px;
+    display: flex;
+    margin-bottom: 2em;
+    overflow-wrap: break-all;
+    overflow: hidden;
+  }
+
+  .images {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
 
   .reddit {
     height: 20ch;
@@ -44,29 +71,23 @@
     position: flex;
   }
 
-
-  .konta {
-   height: 80vh;
-   width: 40vh;
-   background-image: url(solceller.jpg);
-   background-size: cover;
-   margin-bottom: 5vh;
-   margin-left: 10vh;
-   border-radius: 10vh;
-   float: left;
-   justify-content: center;
-   align-items: center;
+  .info {
+    z-index: -3;
+    height: 45em;
   }
 
-  .konta3 {
+
+  .conta {
+   height: 80vh;
+   width: 100px;
+   background-image: url(solceller.jpg);
+   background-size: cover;
+  }
+
+  .conti {
     height: 80vh;
-    width: 60vh;
-    background-image: url(lime-sky.jpg);
+    background-image: url(dark.jpg);
     background-size: cover;
-    margin-bottom: 5vh;
-    margin-left: 17.5vh;
-    border-radius: 10vh;
-    float: left;
    }
 
    .kontakt {
@@ -81,27 +102,17 @@
 
   .konta2 {
     height: 80vh;
-    width: 40vh;
     background-image: url(Vind2.jpg);
     background-size: cover;
-    margin-bottom: 5vh;
-    margin-right: 10vh;
-    border-radius: 10vh;
-    float: right;
-    justify-content: center;
-    align-items: center;
    }
 
    .text-align {
-    margin-left: 10vh;
-    Margin-top: 45vh;
+
    }
 
    .text-place {
-    display: flex;
-    justify-content: center;
-    margin-top: 5vh;
     color: #000;
+
    }
 
 .button-64 {
@@ -153,6 +164,8 @@
   }
 }
    
+.bug {
+}
    
    .hug {
     color: #fff;
