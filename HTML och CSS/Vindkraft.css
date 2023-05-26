@@ -15,14 +15,29 @@ body {
   overflow: hidden;
   font-weight: bold;
 }
-
-.container {
-  background-color: #00aaff;
-  margin-left: 10%;
-  margin-right: 10%;
+.fördelar {
+  background-color: #3c7a49;
+  margin-right: 5%;
+  margin-left: 5%;
   padding: 5% 5% 1%;
   border-radius: 5%;
-  font-size: 110%;
+  font-size: 90%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+footer {
+  padding-left: 10%;
+  margin-top: 5%;
+  background-color: white;
+}
+
+.container {
+  background-color: #3c7a49;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 5% 5% 1%;
+  border-radius: 5%;
+  font-size: 90%;
 }
 .section-center{
     position: absolute;
