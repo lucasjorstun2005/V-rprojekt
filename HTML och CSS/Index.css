@@ -68,7 +68,7 @@
 
   Body {
     background-size: cover;
-    height: 40em;
+    height: 60em;
     background-image: url(Nature.jpg);
     background-attachment: fixed;
   }
@@ -81,7 +81,7 @@
 
   .info {
     z-index: -1;
-    height: 46em;
+    height: 80em;
     background-color: rgb(27, 27, 27);
     border-radius: 80px;
 
