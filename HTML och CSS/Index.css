@@ -16,7 +16,9 @@
   .Name {
     position: absolute;
     font-size: 5em;
-    color:rgba(0,200,105,1);
+    color:rgb(131, 247, 58);
+    text-shadow: #000 5px 0 10px;
+    padding: 10px;
   }
 
   .Pablo {
@@ -27,40 +29,46 @@
   }
 
   div {
-    column-gap: 75px;
+    column-gap: 155px;
   }
 
-  .col {
+  .cop {
     border-radius: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2em;
     overflow-wrap: break-all;
     overflow: hidden;
+    box-shadow: aqua 3px 10px 20px;
   }
 
   .cot {
     border-radius: 35px;
     display: flex;
-    margin-bottom: 2em;
+    align-items: center;
     overflow-wrap: break-all;
     overflow: hidden;
+    box-shadow: aqua 3px 10px 20px;
   }
 
   .images {
-    margin-top: 40px;
-    margin-left: 20px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .figure {
+    overflow-wrap: break-word;
+    display: inline-block;
   }
 
 
-  .reddit {
-    height: 20ch;
-    margin-left: 5ch;
-  }
 
   Body {
     background-size: cover;
+    height: 60em;
     background-image: url(Nature.jpg);
     background-attachment: fixed;
   }
@@ -72,27 +80,77 @@
   }
 
   .info {
-    z-index: -3;
-    height: 45em;
+    z-index: -1;
+    height: 80em;
+    background-color: rgb(27, 27, 27);
+    border-radius: 80px;
+
   }
 
+  .lot {
+    margin-top: 60px;
+    display: inline-block;
+    width: 100%;
+    }
 
-  .conta {
-   height: 80vh;
+    @media (min-width: 768px) {
+      .info {
+        font-size: 20px;
+        min-height: 30em;
+        max-height: 90em;
+      }
+    }
+
+    .ah2 {
+      color: lightgoldenrodyellow;
+      text-shadow: #000 10px 0 10px;
+      border-style: solid;
+      border-color: black;
+      border-width: 1vh;
+      border-radius: 30px;
+      margin: 10px;
+    }
+
+
+  .contw {
+   height: 40vh;
    width: 100px;
    background-image: url(solceller.jpg);
    background-size: cover;
+   box-shadow: aqua 3px 10px 20px;
+   text-align: center;
+  }
+
+  @media (min-width: 768px) {
+    .contw {
+      font-size: 20px;
+      min-width: 214.444px;
+    }
   }
 
   .conti {
-    height: 80vh;
-    background-image: url(dark.jpg);
+    height: 40vh;
+    background-image: url(https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
     background-size: cover;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+
+  @media (min-width: 768px) {
+    .conti {
+      font-size: 20px;
+      min-width: 490px;
+    }
+  }
+
+   .loga {
+    margin-top: 5em;
+    margin-bottom: 0;
    }
 
    .kontakt {
-    margin-left: 10vh;
-    color: #fff;
+    display: flex;
+    justify-content: center;
    }
 
    .mail {
@@ -101,17 +159,28 @@
 
 
   .konta2 {
-    height: 80vh;
+    height: 40vh;
     background-image: url(Vind2.jpg);
     background-size: cover;
    }
 
-   .text-align {
+   @media (min-width: 768px) {
+    .konta2 {
+      font-size: 20px;
+      min-width: 214.444px;
+    }
+  }
 
+   .text-align {
+    display: inline-block;
+    overflow-wrap: break-word;
+    justify-content: center;
+    align-items: center;
    }
 
    .text-place {
     color: #000;
+    text-align: center;
 
    }
 
@@ -144,6 +213,18 @@
   outline: 0;
 }
 
+.mouse:active,
+.mouse:hover {
+  outline: 0;
+}
+
+.mouse {
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
 .button-64 span {
   background-color: rgb(5, 6, 45);
   padding: 15px 20px;
@@ -164,11 +245,15 @@
   }
 }
    
-.bug {
-}
    
    .hug {
-    color: #fff;
+    color: #000;
+    text-shadow: aqua 1px 0 10px;
+   }
+
+   .hut {
+    color: #000;
+    text-shadow: aqua 10px 0 10px;
    }
    
   .s-text {
@@ -285,7 +370,7 @@
   z-index: 9;
   overflow: hidden;
   box-shadow: 0 8px 30px 0 rgba(0,0,0,0.3);
-  background-color: #4DAA57;
+  background-color: black;
   animation: border-transform 7s linear infinite;
   transition: top 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),  
               right 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
@@ -369,7 +454,7 @@
 }
 .nav ul li a:hover{
   text-decoration: none;
-  color: #7fcdff;
+  color: red;
 }
 .nav ul li a:after{
   display: block;
@@ -380,7 +465,7 @@
   margin-top: -1vh;
   width: 0;
   left: 0;
-  background-color: #353746;
+  background-color: none;
   opacity: 0.8;
   transition: width 250ms linear;
 }
