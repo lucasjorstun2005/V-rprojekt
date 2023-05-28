@@ -5,10 +5,11 @@
 
   .Name {
     position: absolute;
-    font-size: 4em;
+    font-size: 5em;
     color:rgb(131, 247, 58);
     text-shadow: #000 5px 0 10px;
     padding: 10px;
+    min-width: none;
   }
 
   .Pablo {
@@ -157,7 +158,7 @@
 
   .konta2 {
     height: 40vh;
-    background-image: url(Vind2.avif);
+    background-image: url(vind2.avif);
     background-size: cover;
    }
 
