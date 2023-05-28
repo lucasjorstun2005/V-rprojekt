@@ -37,7 +37,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-wrap: break-all;
     overflow: hidden;
     box-shadow: aqua 3px 10px 20px;
   }
@@ -46,7 +45,6 @@
     border-radius: 35px;
     display: flex;
     align-items: center;
-    overflow-wrap: break-all;
     overflow: hidden;
     box-shadow: aqua 3px 10px 20px;
   }
@@ -76,7 +74,6 @@
   .kontainer {
     background-color: forestgreen;
     padding: 10rem;
-    position: flex;
   }
 
   .info {
@@ -202,7 +199,6 @@
   padding: 3px;
   text-decoration: none;
   user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
@@ -219,7 +215,6 @@
 }
 
 .mouse {
-  -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
@@ -465,7 +460,6 @@
   margin-top: -1vh;
   width: 0;
   left: 0;
-  background-color: none;
   opacity: 0.8;
   transition: width 250ms linear;
 }
@@ -475,7 +469,7 @@
 
 
 .menu-icon:checked ~ .nav  ul li {
-  pointer-events: auto;
+  pointer-events: none;
   visibility: visible;
   opacity: 1;
   transform: translateY(0);
