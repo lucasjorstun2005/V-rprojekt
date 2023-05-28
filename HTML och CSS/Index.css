@@ -1,21 +1,11 @@
 
-  .c-item {
-    height: 600px;
-    width: 1920px;
-  }
-
-  .c-img {
-    height: 130%;
-    object-fit: cover;
-    background-color:#0B0B0F
-  }
   .karusel {
     margin-block: 250px;
   }
 
   .Name {
     position: absolute;
-    font-size: 5em;
+    font-size: 4em;
     color:rgb(131, 247, 58);
     text-shadow: #000 5px 0 10px;
     padding: 10px;
@@ -37,28 +27,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    flex-wrap: wrap;
     box-shadow: aqua 3px 10px 20px;
+    min-width: 220px;
+    min-height: 400px;
   }
 
   .cot {
     border-radius: 35px;
     display: flex;
     align-items: center;
-    overflow: hidden;
     box-shadow: aqua 3px 10px 20px;
+    min-width: 340px;
+    min-height: 550px;
   }
 
   .images {
     display: inline-block;
-    overflow-wrap: break-word;
     justify-content: center;
     align-items: center;
   }
 
   
   .figure {
-    overflow-wrap: break-word;
     display: inline-block;
   }
 
@@ -66,9 +57,11 @@
 
   Body {
     background-size: cover;
-    height: 60em;
-    background-image: url(Nature.jpg);
+    height: auto;
+    background-image: url(Nature.avif);
     background-attachment: fixed;
+    flex-direction: column;
+    margin: auto;
   }
 
   .kontainer {
@@ -78,9 +71,10 @@
 
   .info {
     z-index: -1;
-    height: 80em;
+    height: auto;
     background-color: rgb(27, 27, 27);
     border-radius: 80px;
+    width: auto;
 
   }
 
@@ -90,7 +84,7 @@
     width: 100%;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 208px) {
       .info {
         font-size: 20px;
         min-height: 30em;
@@ -98,6 +92,11 @@
       }
     }
 
+    @media (min-width: 1080px) {
+      body {
+        max-width: 1920px;
+      }
+    }
     .ah2 {
       color: lightgoldenrodyellow;
       text-shadow: #000 10px 0 10px;
@@ -112,13 +111,13 @@
   .contw {
    height: 40vh;
    width: 100px;
-   background-image: url(solceller.jpg);
+   background-image: url(solceller.avif);
    background-size: cover;
    box-shadow: aqua 3px 10px 20px;
    text-align: center;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 720px) {
     .contw {
       font-size: 20px;
       min-width: 214.444px;
@@ -143,6 +142,7 @@
    .loga {
     margin-top: 5em;
     margin-bottom: 0;
+    min-width: 1000px;
    }
 
    .kontakt {
@@ -157,22 +157,27 @@
 
   .konta2 {
     height: 40vh;
-    background-image: url(Vind2.jpg);
+    background-image: url(Vind2.avif);
     background-size: cover;
    }
 
-   @media (min-width: 768px) {
+   @media (min-width: 720px) {
     .konta2 {
       font-size: 20px;
       min-width: 214.444px;
     }
   }
 
+  @media (min-width: 208px) {
+    .text-align {
+    }
+  }
+
    .text-align {
     display: inline-block;
-    overflow-wrap: break-word;
     justify-content: center;
     align-items: center;
+    flex-wrap: row wrap;
    }
 
    .text-place {
@@ -202,6 +207,8 @@
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
+  min-width: 200px;
+  min-height: auto;
 }
 
 .button-64:active,
@@ -233,7 +240,7 @@
   background: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
   .button-64 {
     font-size: 20px;
     min-width: 196px;
